@@ -100,16 +100,6 @@ export default function FormularioRestaurante({ restauranteInicial, onGuardar })
             margin="normal"
             required
           />
-          
-          <TextField
-            fullWidth
-            label="ID Usuario"
-            name="usuario_id"
-            value={restaurante.usuario_id}
-            onChange={handleChange}
-            margin="normal"
-            required
-          />
 
           <Box sx={{ mt: 3, display: "flex", justifyContent: "center", alignItems: "center", gap: 2 }}>
             <Button variant="contained" component="label">

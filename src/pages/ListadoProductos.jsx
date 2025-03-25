@@ -58,7 +58,6 @@ export default function ListadoProductos() {
 
   const handleGuardarProducto = async (producto) => {
     try {
-      console.log(producto)
       if (producto.id) {
         await productoService.editarProducto(producto);
         setProductos(prev =>
